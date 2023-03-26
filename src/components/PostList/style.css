@@ -1,0 +1,113 @@
+/* estilização para lista de posts */
+
+.post-list {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  display: block;
+}
+
+.post h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.post p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.post button:hover {
+  background-color: #3e8e41;
+}
+
+/* estilização para post selecionado */
+
+.selected-post {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .selected-post h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .selected-post p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .selected-post h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 50px;
+  }
+  
+  .selected-post li {
+    margin-bottom: 20px;
+  }
+  
+  .selected-post li h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .selected-post li p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  
+  .selected-post ul {
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+}
+
+  .selected-post li:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+  .selected-post button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-top: auto;
+  }
+  
+  .selected-post button:hover {
+    background-color: #3e8e41;
+  }

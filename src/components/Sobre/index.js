@@ -4,7 +4,7 @@ import profileImage from '../../assets/profile-image.jpg';
 
 const GithubButton = () => {
   return (
-    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+    <a href="https://github.com/aaron-wendell" target="_blank" rel="noopener noreferrer">
       <img
         src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
         alt="Github logo"
